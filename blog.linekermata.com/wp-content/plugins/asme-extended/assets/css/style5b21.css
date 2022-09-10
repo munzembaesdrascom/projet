@@ -1,0 +1,184 @@
+/*--------------------------------------------------------------
+Featured Content
+--------------------------------------------------------------*/
+
+.feat-date
+{
+    display: block;
+}
+
+/* carousel image */
+
+.feat-img-margin
+{
+    margin-bottom: 40px;
+}
+
+.feat-img-wrapper
+{
+    position: relative;
+
+    height: 330px;
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover !important;
+}
+
+.feat-middle
+{
+    padding: 40px;
+}
+
+.feat-img-content
+{
+    position: relative;
+
+    overflow: hidden;
+
+    height: 250px;
+
+    -webkit-transition: all .3s ease 0s;
+       -moz-transition: all .3s ease 0s;
+         -o-transition: all .3s ease 0s;
+            transition: all .3s ease 0s;
+    text-align: center;
+
+    border: 3px double transparent;
+}
+
+.feat-img-box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 100%;
+    padding: 12px;
+
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.feat-img-content:hover
+{
+    margin-top: -5px;
+}
+
+.overlay
+{
+    position: absolute;
+    z-index: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.feat-img h3
+{
+    line-height: 33px;
+
+    overflow: hidden;
+
+    max-height: 92px;
+}
+
+.feat-img .feat-date
+{
+    margin-bottom: 15px;
+}
+
+.feat-img .feat-desc
+{
+    margin-top: 15px;
+}
+
+/* carousel block  */
+
+.feat-block
+{
+    margin-bottom: 40px;
+
+    text-align: center;
+}
+
+.feat-block-wrapper
+{
+    display: table;
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+    padding: 20px 10px;
+}
+
+.feat-block-content
+{
+    position: relative;
+
+    overflow: hidden;
+
+    height: 170px;
+    padding: 5px;
+
+    -webkit-transition: all .3s ease 0s;
+       -moz-transition: all .3s ease 0s;
+         -o-transition: all .3s ease 0s;
+            transition: all .3s ease 0s;
+
+    border: 3px double transparent;
+}
+
+.feat-block-content:hover
+{
+    margin-top: -5px;
+}
+
+.feat-block-box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    width: 100%;
+    padding: 7px;
+
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.feat-block h5
+{
+    font-size: 15px;
+    line-height: 22px;
+
+    overflow: hidden;
+
+    max-height: 67px;
+}
+
+.feat-block .feat-date
+{
+    font-size: 13px;
+    font-style: italic;
+
+    margin-bottom: 0;
+}
+
+.feat-separator
+{
+    display: block;
+
+    width: 10px;
+    height: 2px;
+    margin: 7px auto;
+}
+
+.feat-block .feat-desc
+{
+    font-size: 12px;
+    font-weight: bold;
+
+    margin-top: 5px;
+}
