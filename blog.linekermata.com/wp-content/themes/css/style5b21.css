@@ -703,7 +703,7 @@ article
 
 /*** lists ***/
 
-.entry-content ul,
+.entry-content ul :not(.bito),
 .comment-content ul
 {
     margin-left: 20px;
@@ -727,11 +727,14 @@ article
 }
 
 .entry-content ul ul,
-.entry-content ol ul,
+.entry-content ol ul :not(.bito),
 .comment-content ul ul,
 .comment-content ol ul
 {
     margin-left: 20px;
+}
+.bito{
+    margin-left: 65px;
 }
 .entry-content ol ol,
 .entry-content ul ol,
