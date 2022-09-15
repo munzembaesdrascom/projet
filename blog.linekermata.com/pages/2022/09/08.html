@@ -1114,7 +1114,13 @@
     </div><!-- .wrapper -->
 
     <a href="#" class="move-up" id="move-up"><i class="fa fa-chevron-up"></i></a>
-
+    <script>
+        // When the user clicks on div, open the popup
+        function myFunctAf() {
+          var popup = document.getElementById("myPopup");
+          popup.classList.toggle("show");
+        }
+        </script>
     <script>(function () {
             function maybePrefixUrlField() {
                 if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
