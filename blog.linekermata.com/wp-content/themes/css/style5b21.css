@@ -36,10 +36,10 @@ Text Domain: asme
 /*--------------------------------------------------------------
 1.0 General
 --------------------------------------------------------------*/
-
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 body
 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     line-height: 1.8;
 
